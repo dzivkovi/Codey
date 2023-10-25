@@ -1,0 +1,42 @@
+
+
+Schema for table: bigquery-public-data.new_york.citibike_stations:
+
+                  column_name  data_type
+0                  station_id     STRING
+1                        name     STRING
+2                  short_name     STRING
+3                    latitude    FLOAT64
+4                   longitude    FLOAT64
+5                   region_id      INT64
+6              rental_methods     STRING
+7                    capacity      INT64
+8    eightd_has_key_dispenser       BOOL
+9         num_bikes_available      INT64
+10         num_bikes_disabled      INT64
+11        num_docks_available      INT64
+12         num_docks_disabled      INT64
+13               is_installed       BOOL
+14                 is_renting       BOOL
+15               is_returning       BOOL
+16  eightd_has_available_keys       BOOL
+17              last_reported  TIMESTAMP
+
+Schema for table: bigquery-public-data.new_york.citibike_trips:
+
+                column_name  data_type
+0              tripduration      INT64
+1                 starttime  TIMESTAMP
+2                  stoptime  TIMESTAMP
+3          start_station_id      INT64
+4        start_station_name     STRING
+5    start_station_latitude    FLOAT64
+6   start_station_longitude    FLOAT64
+7            end_station_id      INT64
+8          end_station_name     STRING
+9      end_station_latitude    FLOAT64
+10    end_station_longitude    FLOAT64
+11                   bikeid      INT64
+12                 usertype     STRING
+13               birth_year      INT64
+14                   gender     STRING

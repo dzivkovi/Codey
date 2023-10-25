@@ -1,0 +1,75 @@
+
+
+Data for table: bigquery-public-data.new_york.citibike_stations:
+
+  station_id                        name short_name   latitude  longitude  \
+0        495            W 47 St & 10 Ave    6824.07  40.762699 -73.993012   
+1       3171     Amsterdam Ave & W 82 St    7360.10  40.785247 -73.976673   
+2       3603              31 Ave & 30 St    6857.09  40.764700 -73.924031   
+3       3733          Avenue C & E 18 St    5769.04  40.730563 -73.973984   
+4       3792  Columbus Dr at Exchange Pl      JC106  40.716870 -74.032810   
+
+   region_id   rental_methods  capacity  eightd_has_key_dispenser  \
+0         71  KEY, CREDITCARD         0                     False   
+1         71  KEY, CREDITCARD         0                     False   
+2         71  KEY, CREDITCARD         0                     False   
+3         71  KEY, CREDITCARD         0                     False   
+4         70  KEY, CREDITCARD         0                     False   
+
+   num_bikes_available  num_bikes_disabled  num_docks_available  \
+0                    0                   0                    0   
+1                    0                   0                    0   
+2                    0                   0                    0   
+3                    0                   0                    0   
+4                    0                   0                    0   
+
+   num_docks_disabled  is_installed  is_renting  is_returning  \
+0                   0          True        True          True   
+1                   0         False       False         False   
+2                   0         False       False         False   
+3                   0         False       False         False   
+4                   0         False       False         False   
+
+   eightd_has_available_keys             last_reported  
+0                      False 1970-01-02 00:00:00+00:00  
+1                      False 1970-01-02 00:00:00+00:00  
+2                      False 1970-01-02 00:00:00+00:00  
+3                      False 1970-01-02 00:00:00+00:00  
+4                      False 1970-01-02 00:00:00+00:00  
+
+Data for table: bigquery-public-data.new_york.citibike_trips:
+
+   tripduration                 starttime                  stoptime  \
+0          1229 2016-04-22 16:34:41+00:00 2016-04-22 16:55:10+00:00   
+1          3142 2016-05-16 16:10:26+00:00 2016-05-16 17:02:49+00:00   
+2          1586 2015-10-11 15:28:46+00:00 2015-10-11 15:55:12+00:00   
+3           816 2015-10-09 12:00:51+00:00 2015-10-09 12:14:27+00:00   
+4          1959 2015-10-14 20:24:30+00:00 2015-10-14 20:57:09+00:00   
+
+   start_station_id start_station_name  start_station_latitude  \
+0              3122      48 Ave & 5 St               40.744363   
+1              3122      48 Ave & 5 St               40.744363   
+2              3122      48 Ave & 5 St               40.744363   
+3              3122      48 Ave & 5 St               40.744363   
+4              3122      48 Ave & 5 St               40.744363   
+
+   start_station_longitude  end_station_id end_station_name  \
+0               -73.955873            3122    48 Ave & 5 St   
+1               -73.955873            3122    48 Ave & 5 St   
+2               -73.955873            3122    48 Ave & 5 St   
+3               -73.955873            3122    48 Ave & 5 St   
+4               -73.955873            3122    48 Ave & 5 St   
+
+   end_station_latitude  end_station_longitude  bikeid    usertype  \
+0             40.744363             -73.955873   19469    Customer   
+1             40.744363             -73.955873   23466  Subscriber   
+2             40.744363             -73.955873   22896    Customer   
+3             40.744363             -73.955873   23533  Subscriber   
+4             40.744363             -73.955873   23110  Subscriber   
+
+   birth_year   gender  
+0        <NA>  unknown  
+1        1986     male  
+2        <NA>  unknown  
+3        1989     male  
+4        1984     male  
