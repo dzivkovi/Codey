@@ -127,9 +127,11 @@ def get_proposed_query(question, schemas, data):
     {question}
 
     When constructing SQL statements, follow these rules:
-    - There is no `MONTH` function; if you want the month, instead use `EXTRACT(month FROM starttime) AS month`
+    - Use `EXTRACT(month FROM starttime) AS month` to obtain the month information as there is no `MONTH` function.
     - The `birth_year` field tells the birth year of when the rider was born. Older riders have smaller birth years, and younger riders have larger birth years.
-   
+    - The `gender` field tells the gender of the rider.
+    - The `start_station_id` field tells the ID of the station where the rider started the trip.
+    - The `end_station_id` field tells the ID of the station where the ride ended.
     """,
         **parameters
     )
